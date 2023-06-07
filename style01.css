@@ -1,0 +1,17 @@
+*{
+    margin:0;
+}
+  .quadrados{
+    width:400px;
+    height:300px;
+    background:#62374e;
+    display:grid; 
+    place-self:center;
+    grid-template-columns: repeat(2,1fr);
+    place-items:center;
+}
+  div {
+    width: 50px;
+    height: 50px;
+    background: #FDC57B;
+  }
