@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    background: palevioletred;
+    width: 10vw;
+    height: 10vh;
+    place-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: seashell;
+    font-weight: 900;
+}
+ul,ol,li{
+    list-style: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/waneella-1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+}
+
+.botoes{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 20%;
+    place-items: center;
+    justify-content: center;
+    gap: 15%;
+}
